@@ -1,0 +1,14 @@
+Buildfile: C:\Users\user\Documents\Mendix\YourApplication-main_3\deployment\build_core.xml
+
+compile:
+    [javac] Compiling 49 source files to C:\Users\user\Documents\Mendix\YourApplication-main_3\deployment\run\bin
+
+build:
+      [bnd] # addAll 'deployment/run/bnd.bnd' with ,
+      [bnd] # project (project.jar) 456 
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+
+
+

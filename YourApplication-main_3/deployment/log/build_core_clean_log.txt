@@ -1,0 +1,9 @@
+Buildfile: C:\Users\user\Documents\Mendix\YourApplication-main_3\deployment\build_core.xml
+
+clean:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+
+

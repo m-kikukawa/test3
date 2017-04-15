@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="Handsontable.widget.Handsontable" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>Handsontable</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="resultData" type="attribute">
+            <caption>Result Data</caption>
+            <category>Appearance</category>
+            <description>出力データ情報を設定しているAttributeを指定</description>
+            <attributeTypes>
+                <attributeType name="String" />
+            </attributeTypes>
+        </property>
+        <property key="resultHeader" type="attribute">
+            <caption>Result Header</caption>
+            <category>Appearance</category>
+            <description>出力ヘッダ情報を設定しているAttributeを指定</description>
+            <attributeTypes>
+                <attributeType name="String" />
+            </attributeTypes>
+        </property>
+        <property key="resultCount" type="attribute">
+            <caption>Result Count</caption>
+            <category>Appearance</category>
+            <description>総件数を設定しているAttributeを指定</description>
+            <attributeTypes>
+                <attributeType name="Integer" />
+            </attributeTypes>
+        </property>
+        <property key="pageNo" type="attribute">
+            <caption>Page No</caption>
+            <category>Appearance</category>
+            <description>ページ番号を設定しているAttributeを指定</description>
+            <attributeTypes>
+                <attributeType name="Integer" />
+            </attributeTypes>
+        </property>
+        <property key="displayCount" type="attribute">
+            <caption>Display Count</caption>
+            <category>Appearance</category>
+            <description>1ページ辺りの表示件数を指定しているAttributeを指定。※指定されたAttributeに0が設定されている場合は、全件を表示</description>
+            <attributeTypes>
+                <attributeType name="Integer" />
+            </attributeTypes>
+        </property>
+        <property key="tableOption" type="string" required="true" defaultValue='{"data":[],"colHeaders":[]}'>
+            <caption>Table Option</caption>
+            <category>Appearance</category>
+            <description>HandsonTableのオプションを指定</description>
+        </property>
+    </properties>
+</widget>
+
